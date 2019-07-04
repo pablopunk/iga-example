@@ -1,4 +1,4 @@
-# Deploy an `iga` app using [now](https://now.sh)
+# Deploy an *iga* app using [now](https://now.sh)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/pablopunk/art/master/iga/iga-now.svg?sanitize=true" alt="logo">
