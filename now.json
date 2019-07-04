@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "deploy.js",
+      "use": "@now/node",
+      "config": { "includeFiles": ["routes/**"] }
+    }
+  ],
+  "routes": [{ "src": "/.*", "dest": "/deploy.js" }]
+}
