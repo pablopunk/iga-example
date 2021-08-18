@@ -1,1 +1,1 @@
-export default (_req, res) => res.end('Welcome')
+export default () => 'Welcome'

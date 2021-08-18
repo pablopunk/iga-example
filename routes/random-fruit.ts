@@ -8,5 +8,6 @@ const fruits = [
 
 export default (_req, res) => {
   const randomIndex = Math.floor((Math.random() * fruits.length))
-  res.end(fruits[randomIndex])
+
+  return fruits[randomIndex]
 }
